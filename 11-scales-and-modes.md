@@ -28,12 +28,12 @@ demos: ["demos/demo_11_scales_modes.py"]
 
 先听两条最常用的（`demo_11` 合成，C 起音上行）——大调音阶和五声音阶：
 
-- 自然大调（C D E F G A B C）：<audio controls src="../demos/audio/11_major_scale.wav"></audio>
-- 五声（宫商角徵羽，C D E G A）：<audio controls src="../demos/audio/11_pentatonic.wav"></audio>
+- 自然大调（C D E F G A B C）：<audio controls src="demos/audio/11_major_scale.wav"></audio>
+- 五声（宫商角徵羽，C D E G A）：<audio controls src="demos/audio/11_pentatonic.wav"></audio>
 
 注意最后一列就是 Ch3 的音分公式 $c = 1200\log_2(f/f_0)$ 应用到每个音级的**离散结果**——音阶是对数频率轴上的七个（或五个）点，下图（`demo_11` 生成）把它们画成错开的阶梯：
 
-![五种音阶在对数频率轴上的阶梯](../demos/figs/11_scales.png)
+![五种音阶在对数频率轴上的阶梯](demos/figs/11_scales.png)
 
 > **乐理小注**：对照 `keywords.md` 第九讲「音阶、主音、调性」。教材说"音阶按上行次序排列"；频率语言里"上行"就是音分数从 0 单调增到 1200。**主音是基准点**：音阶里所有音都"相对主音"标音分，主音就是那个 $0$。
 
@@ -64,7 +64,7 @@ demos: ["demos/demo_11_scales_modes.py"]
 
 频率语言的关键观察：**七个调式的音级集合（相对各自的第 0 级）都是同一序列的旋转，所以在同一把 $\mathbb{Z}_{12}$ 格子上"形状"相同、只有主音位置不同**（下图 `demo_11` 生成）。C 大调与 A 爱奥利亚用同一组白键，区别只是"谁算 $0$"——这就是 Ch12 关系大小调的前奏。
 
-![七个调式 = 同一半音序列的旋转](../demos/figs/11_modes.png)
+![七个调式 = 同一半音序列的旋转](demos/figs/11_modes.png)
 
 > **乐理小注**：对照 `keywords.md` 第九讲「调式、调性」。教材说"调式是几个音按一定关系组成的一个体系，以其中一个音为主音"。本章补充：**这组"关系"就是半音序列，主音就是序列的起点**。同一序列旋转出七种调式，"色彩"差异只来自第 3、6、7 级的音分位置。
 
@@ -82,7 +82,7 @@ demos: ["demos/demo_11_scales_modes.py"]
 
 （下图为五种五声调式在五格上的旋转，`demo_11` 生成）
 
-![五种五声调式 = 同一五点序列的旋转](../demos/figs/11_pentatonic_modes.png)
+![五种五声调式 = 同一五点序列的旋转](demos/figs/11_pentatonic_modes.png)
 
 观察：五声音阶**没有半音**（最小间隔 200c），所以五个音之间任意两两都不构成小二度——它是"没有紧张度"的平滑网格，这正是五声"平和、兼容"的声学根据。
 

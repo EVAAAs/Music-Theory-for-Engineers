@@ -14,13 +14,13 @@ demos: ["demos/demo_16_bwv846.py"]
 
 先整体听一遍（`demo_16` 合成，24 小节，约 61 秒；真实演奏是羽管键琴/钢琴，这里用合成拨弦音色还原和声骨架）：
 
-<audio controls src="../demos/audio/16_bwv846.wav"></audio>
+<audio controls src="demos/audio/16_bwv846.wav"></audio>
 
 ## 开头琶音：一个大三和弦的"瀑布"
 
 曲子第一小节就是右手在 C 大三和弦上琶音：C4–E4–G4–C5–E5，低音 C3 持续。这就是 Ch4 的三和弦 $4:5:6$，再加一个八度 $2$。把它画成谐波梳（下图，`demo_16` 生成），Ch4/Ch8 的结论直接落地：
 
-![BWV846 开头琶音 C–E–G–C′：小整数比的谐波重合](../demos/figs/16_opening_arpeggio.png)
+![BWV846 开头琶音 C–E–G–C′：小整数比的谐波重合](demos/figs/16_opening_arpeggio.png)
 
 - **G4 = 3:2 × C4**：G 的 3 谐波与 C 的 2 谐波重合（五度的"骨骼"）；
 - **E4 = 5:4 × C4**：E 的 5 谐波与 C 的 4 谐波重合（三度的"血肉"）；
@@ -30,7 +30,7 @@ demos: ["demos/demo_16_bwv846.py"]
 
 先听开头 6 小节（`demo_16` 合成：C → Cadd9 → Am → Dm → G7 → C，正好是一条顺滑的五度链）：
 
-<audio controls src="../demos/audio/16_opening.wav"></audio>
+<audio controls src="demos/audio/16_opening.wav"></audio>
 
 ## 持续低音 + 分解和弦：F0(t) 与谐波关系并行
 
@@ -41,7 +41,7 @@ demos: ["demos/demo_16_bwv846.py"]
 
 把每小节的琶音"顶音"连起来，就得到一条阶梯状的高音旋律线 F0(t)（下图，`demo_16` 生成）：
 
-![BWV846 高音声部 F0(t)：琶音顶音连成的旋律线](../demos/figs/16_soprano_f0.png)
+![BWV846 高音声部 F0(t)：琶音顶音连成的旋律线](demos/figs/16_soprano_f0.png)
 
 注意这条线**不怎么跳**：顶音几乎都在 E5、C5、D5 附近徘徊（±两三度），真正的和声变化藏在低音和和弦本身里。这正是 Ch15 的要点——**旋律是音高线，但音乐的信息远不止音高线**：同一时刻响着的谐波梳（和弦）才是"和声"的所在。
 
@@ -65,7 +65,7 @@ demos: ["demos/demo_16_bwv846.py"]
 
 把每个和弦的**根音**放到五度圈上（下图，`demo_16` 生成）：主功能（C、A）在一角，下属（F、D）在另一角，属功能（G）把两者接起来——全曲就在这个"主–下属–属–主"的三角形里往返，一次都没有走远：
 
-![BWV846 和声根音在五度圈上的路径](../demos/figs/16_circle_path.png)
+![BWV846 和声根音在五度圈上的路径](demos/figs/16_circle_path.png)
 
 两个要点：
 
@@ -80,7 +80,7 @@ demos: ["demos/demo_16_bwv846.py"]
 
 听这层收束（`demo_16` 合成，末 6 小节：F → F/E → Dm → G7 → C，低音从 F 一级级走到 C）：
 
-<audio controls src="../demos/audio/16_ending.wav"></audio>
+<audio controls src="demos/audio/16_ending.wav"></audio>
 
 注意末段低音的走向：F → E（经过）→ D → G → C。这不是随机游走——它先是**级进下行**（F–E–D）铺出柔和的过渡，再交给属功能 G7 用"半音磁力"把整段拽回 C。第 20 小节的 F/E（低音 E）尤其妙：低音提前半步落到"主音下方 100 音分"的位置，等于让导音效果**提前闪现**，最后 4 小节的收束因此格外有力。
 

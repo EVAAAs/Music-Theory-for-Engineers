@@ -30,7 +30,7 @@ $$C \xrightarrow{+7} G \xrightarrow{+7} D \xrightarrow{+7} A \xrightarrow{+7} E 
 
 下图（`demo_12` 生成，数值来自 `demos/demo_12_circle_of_fifths.py --print-tables`）把 12 个调画成圆环：
 
-![调的五度循环：12 个调围成一圈](../demos/figs/12_circle_of_keys.png)
+![调的五度循环：12 个调围成一圈](demos/figs/12_circle_of_keys.png)
 
 | 圈上位置 | 调 | 主音 | 调号 |
 |---|---|---|---|
@@ -63,11 +63,11 @@ $$C\ \text{大调} \longleftrightarrow A\ \text{小调},$$
 
 下图左边（`demo_12` 生成）画出：C 大调的音级集合 $\{C,D,E,F,G,A,B\}$ 与 A 小调的 $\{A,B,C,D,E,F,G\}$ **是同一个 7 点集**——A 小调只是把 C 大调的第六级当主音。这类成对的大小调叫**关系大小调**（平行大小调、同名音列大小调）。频率语言：**音级集合相同、基准点（主音）移动 3 个半音**。
 
-![关系大小调（左）与同宫系统（右）：同一音列，只换主音](../demos/figs/12_relative.png)
+![关系大小调（左）与同宫系统（右）：同一音列，只换主音](demos/figs/12_relative.png)
 
 听一遍这层"换主音"的关系（`demo_12` 合成）：先是 C 大调音阶上行，停顿后是 A 自然小调——**同样的七个白键，换了个起点**：
 
-<audio controls src="../demos/audio/12_relative.wav"></audio>
+<audio controls src="demos/audio/12_relative.wav"></audio>
 
 > **乐理小注**：对照 `keywords.md` 第十讲「关系大小调」。教材教"大调 VI 级上的小调即其关系小调"。本章的机制是：把大调序列 $[2,2,1,2,2,2,1]$ 从第六级重排，恰好得到自然小调序列 $[2,1,2,2,1,2,2]$——**不是"另一个音阶"，而是同一序列的旋转**（Ch11 的调式观）。因此关系大小调共享同一个五度圈位置。
 
@@ -98,7 +98,7 @@ $$C\ \text{大调} \longleftrightarrow A\ \text{小调},$$
 
 第八、十讲的**调关系**在频率语言里有了定量回答。设两调主音在五度圈上相距 $k$ 步，它们共用多少个音？对 7 音的大调/小调，下图（`demo_12` 生成）把共同音数画成随 $k$ 变化的曲线：
 
-![共同音数随五度圈距离下降](../demos/figs/12_common_notes.png)
+![共同音数随五度圈距离下降](demos/figs/12_common_notes.png)
 
 | 距离 k | 主音 | 共同音级数 | 称呼 |
 |---|---|---|---|

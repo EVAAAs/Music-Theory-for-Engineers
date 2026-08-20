@@ -44,7 +44,7 @@ Ch3 我们建立了音分 $c = 1200\log_2(f_2/f_1)$，Ch4–7 建立了音律。
 
 Ch4 用谐波重合解释纯律偏好小整数比。这里给出定量形式：比值 $a:b$（约分后）意味着音 1 的第 $a$ 谐波 = 音 2 的第 $b$ 谐波。**重合的谐波序数 $\min(a,b)$ 越小，重合越早、越响、越融合**（`demo_08` 生成下图，越靠右的条越"晚"）：
 
-![谐波重合序数：比值越简单越融合](../demos/figs/08_harmonic_coincidence.png)
+![谐波重合序数：比值越简单越融合](demos/figs/08_harmonic_coincidence.png)
 
 | 音程 | 比值 | 重合谐波对 | min |
 |---|---|---|---|
@@ -78,7 +78,7 @@ $$r \longmapsto \frac{2}{r}, \qquad x \longmapsto 1200 - x.$$
 
 **转位 = 互补**：五度转四度（701.96 → 498.04），大三度转小六度（386.31 → 813.69），音分和恒为 1200，比值乘积恒为 2。减五度 64:45 是增四度 45:32 的转位（609.78 ↔ 590.22）——三全音是**自互补**的：$2/(45/32) = 64/45$，且音分 $600 \mapsto 600$。
 
-![音程转位 = 互补](../demos/figs/08_inversion.png)
+![音程转位 = 互补](demos/figs/08_inversion.png)
 
 > **乐理小注**：对照 `keywords.md` 第六讲「音程的转位」。教材列转位规则表（纯↔纯、大↔小、增↔减、倍增↔倍减）；公式 $r\mapsto 2/r$ 一屏就装下全部规则。口诀"互补"来自八度内两根线的对称性。
 
@@ -134,7 +134,7 @@ $$r \longmapsto \frac{2}{r}, \qquad x \longmapsto 1200 - x.$$
 
 **试听**：14 个基本音程从纯一度到纯八度依次上行：
 
-<audio controls src="../demos/audio/08_intervals.wav"></audio>
+<audio controls src="demos/audio/08_intervals.wav"></audio>
 
 **动画**：音程的转位如何在八度内"互补"：
 

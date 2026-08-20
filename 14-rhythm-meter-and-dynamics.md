@@ -16,7 +16,7 @@ demos: ["demos/demo_14_rhythm_and_meter.py"]
 
 音乐的时间不是连续的流，而是**分层的网格**。先看拍号——**4/4** 读作"四四拍"，分母的 4 说"以四分音符为一拍"，分子的 4 说"每小节有 4 拍"（3/4 就是每小节 3 拍，6/8 就是每小节 6 个八分音符）。4/4 因此给出一套均匀的时间格：每小节 4 拍，每拍可二等分、再二等分（八分、十六分）。下图（`demo_14` 生成）把它画出来：
 
-![4/4 的均匀时间格：小节 → 拍 → 八分 → 十六分](../demos/figs/14_time_grid.png)
+![4/4 的均匀时间格：小节 → 拍 → 八分 → 十六分](demos/figs/14_time_grid.png)
 
 | 层 | 时长（120 BPM） | 作用 |
 |---|---|---|
@@ -33,11 +33,11 @@ demos: ["demos/demo_14_rhythm_and_meter.py"]
 
 **切分（syncopation）**把重音从正拍挪到弱位，并让音持续跨过拍点：重音不再落在"格点"上，而是落在格子的"缝隙"里。下图（`demo_14` 生成）把常规节奏与切分节奏并排对比——注意切分那行的振幅峰落在两格之间：
 
-![常规节奏 vs 切分：重音离格](../demos/figs/14_rhythm_compare.png)
+![常规节奏 vs 切分：重音离格](demos/figs/14_rhythm_compare.png)
 
 听感上的"摇摆/失衡"来自哪里？从声学看，切分把振幅峰从时间格的周期位置**平移了半步**，破坏了"重音每 N 拍循环一次"的规则性——**节奏的张力 = 振幅包络偏离均匀格的量**。听一遍对比（`demo_14` 合成，先常规后切分）：
 
-<audio controls src="../demos/audio/14_rhythm.wav"></audio>
+<audio controls src="demos/audio/14_rhythm.wav"></audio>
 
 > **乐理小注**：对照 `keywords.md` 第四讲「切分音、切分节奏、切分效果」。教材教"弱拍（弱位）开始、延续过强拍（强位）的音是切分音"。频率语言：切分 = 重音位置偏离时间格点半拍；它制造悬念，随后常"解决"到正拍——和 Ch15 导音解决是同一个原理（偏离网格 → 回到网格）。
 
@@ -45,11 +45,11 @@ demos: ["demos/demo_14_rhythm_and_meter.py"]
 
 常规时值都是 $2^{-k}$ 拍（二的幂）。**连音符**打破这个约束：**三连音把一拍分成三等分**（每份 $1/3$ 拍），五连音分五等分，等等。$1/3$ 不是 $2^{-k}$，所以三连音"挤"进了一拍的时间——它给均匀格插入了一个**非幂子格**（下图 `demo_14` 生成：同一拍，上面二等分、下面三等分）。记谱上用数字 3 标记；频率语言里它是时间格的一个"不规则细分"，就像纯律的 21.51c 音差是频率轴上的"不规则偏音"一样。
 
-![三连音：一拍二等分 vs 三等分](../demos/figs/14_tuplet.png)
+![三连音：一拍二等分 vs 三等分](demos/figs/14_tuplet.png)
 
 听这个"挤进去"的差别（`demo_14` 合成，先二连音后三连音，同样一拍）：
 
-<audio controls src="../demos/audio/14_triplet.wav"></audio>
+<audio controls src="demos/audio/14_triplet.wav"></audio>
 
 > **乐理小注**：对照 `keywords.md` 第四讲「连音符（音符均分的特殊形式）」。教材说"将音值自由均分，以代替基本划分"。本章：基本划分 = 2 幂，连音符 = 其他整数等分。三连音是一拍"被切成 3"而不是"切成 4"——数学上就是 $1/3$ 与 $1/4$ 的区别。
 
@@ -57,11 +57,11 @@ demos: ["demos/demo_14_rhythm_and_meter.py"]
 
 **速度（tempo）**不是节奏本身的改变，而是**整个时间轴的缩放**：60 BPM = 一拍 1.0 s，120 BPM = 一拍 0.5 s。同一段节奏，把时间轴压缩一半，就得到双倍速度（下图 `demo_14` 生成，同一段音符在两种速度下的时值分布）。这正是移调（Ch13 的 $T_\lambda$）在时间维的镜像：
 
-![速度加倍 = 时间轴压缩一半](../demos/figs/14_tempo.png)
+![速度加倍 = 时间轴压缩一半](demos/figs/14_tempo.png)
 
 同一段节奏先慢后快听一遍（`demo_14` 合成，60 BPM → 120 BPM）：
 
-<audio controls src="../demos/audio/14_tempo.wav"></audio>
+<audio controls src="demos/audio/14_tempo.wav"></audio>
 
 $$\text{速度加倍} = \text{时间轴乘 } \frac{1}{2},\qquad \text{移调} = \text{频率轴乘 } \lambda.$$
 
@@ -77,7 +77,7 @@ $$A \;\xrightarrow{}\; \text{dB} = 20\log_{10}(A/A_0) \;\xrightarrow{}\; \text{�
 
 下图（`demo_14` 生成）画出这条链：物理幅度每 ×10，dB 加 20，但感知响度只 ×$10^{0.6}\approx 4$。
 
-![线性幅度 → 感知响度：Stevens 幂律压缩](../demos/figs/14_loudness.png)
+![线性幅度 → 感知响度：Stevens 幂律压缩](demos/figs/14_loudness.png)
 
 **Stevens 幂律**（感知响度 ∝ 物理强度的 0.3 次幂，即振幅的 0.6 次幂）说明：耳朵把大动态范围"压缩"成了小感知范围——这就是力度记号只有 pp–ff 几档、却要覆盖巨大音量差异的生理原因。
 

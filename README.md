@@ -26,40 +26,40 @@
 ### Part I 声音的物理与数学
 | 章 | 标题 | 覆盖讲次 | 配套演示 |
 |---|---|---|---|
-| [00](chapters/00-intro.md) | 导言：为什么乐理是频率的语言 | 第 1、2 讲 | — |
-| [01](chapters/01-waves-and-stationary-modes.md) | 波动方程与驻波：谐波序列的物理起源 | 第 1、2 讲 | `demo_01` |
-| [02](chapters/02-fourier-and-timbre.md) | 傅里叶变换：音色 = 频谱 | 第 1 讲 | `demo_02` |
-| [03](chapters/03-log-frequency-axis.md) | 对数频率轴：音乐的天然坐标 | 第 1 讲 | `demo_03` |
+| [00](00-intro.md) | 导言：为什么乐理是频率的语言 | 第 1、2 讲 | — |
+| [01](01-waves-and-stationary-modes.md) | 波动方程与驻波：谐波序列的物理起源 | 第 1、2 讲 | `demo_01` |
+| [02](02-fourier-and-timbre.md) | 傅里叶变换：音色 = 频谱 | 第 1 讲 | `demo_02` |
+| [03](03-log-frequency-axis.md) | 对数频率轴：音乐的天然坐标 | 第 1 讲 | `demo_03` |
 
 ### Part II 音律：频率轴的离散化
 | 章 | 标题 | 覆盖讲次 | 配套演示 |
 |---|---|---|---|
-| [04](chapters/04-just-intonation.md) | 纯律：小整数比与谐波拟合 | 第 2 讲 | `demo_04` |
-| [05](chapters/05-pythagorean-tuning.md) | 五度相生律：3/2 的幂链 | 第 2 讲 | `demo_05` |
-| [06](chapters/06-equal-temperament.md) | 十二平均律：$\mathbb{Z}_{12}$ 与"为什么是 12" | 第 2 讲 | `demo_06` |
-| [07](chapters/07-comparing-temperaments.md) | 三种音律的比较与半音/全音结构 | 第 2 讲 | `demo_07` |
+| [04](04-just-intonation.md) | 纯律：小整数比与谐波拟合 | 第 2 讲 | `demo_04` |
+| [05](05-pythagorean-tuning.md) | 五度相生律：3/2 的幂链 | 第 2 讲 | `demo_05` |
+| [06](06-equal-temperament.md) | 十二平均律：$\mathbb{Z}_{12}$ 与"为什么是 12" | 第 2 讲 | `demo_06` |
+| [07](07-comparing-temperaments.md) | 三种音律的比较与半音/全音结构 | 第 2 讲 | `demo_07` |
 
 ### Part III 音程与和弦：频率比的结构
 | 章 | 标题 | 覆盖讲次 | 配套演示 |
 |---|---|---|---|
-| [08](chapters/08-intervals.md) | 音程 = 频率比 | 第 6 讲 | `demo_08` |
-| [09](chapters/09-consonance-and-dissonance.md) | 协和与不协和：粗糙度曲线 | 第 6 讲 | `demo_09` |
-| [10](chapters/10-chords.md) | 和弦 = 频率比集合 | 第 7 讲 | `demo_10` |
+| [08](08-intervals.md) | 音程 = 频率比 | 第 6 讲 | `demo_08` |
+| [09](09-consonance-and-dissonance.md) | 协和与不协和：粗糙度曲线 | 第 6 讲 | `demo_09` |
+| [10](10-chords.md) | 和弦 = 频率比集合 | 第 7 讲 | `demo_10` |
 
 ### Part IV 调式与调：频率格的子结构
 | 章 | 标题 | 覆盖讲次 | 配套演示 |
 |---|---|---|---|
-| [11](chapters/11-scales-and-modes.md) | 音阶与调式：八度的离散划分 | 第 9 讲 | `demo_11` |
-| [12](chapters/12-circle-of-fifths-and-key-relations.md) | 五度循环与调关系 | 第 8、10 讲 | `demo_12` |
-| [13](chapters/13-transposition-and-modulation.md) | 移调与转调：平移对称性 | 第 13、15 讲 | `demo_13` |
+| [11](11-scales-and-modes.md) | 音阶与调式：八度的离散划分 | 第 9 讲 | `demo_11` |
+| [12](12-circle-of-fifths-and-key-relations.md) | 五度循环与调关系 | 第 8、10 讲 | `demo_12` |
+| [13](13-transposition-and-modulation.md) | 移调与转调：平移对称性 | 第 13、15 讲 | `demo_13` |
 
 ### Part V 时间维与收束
 | 章 | 标题 | 覆盖讲次 | 配套演示 |
 |---|---|---|---|
-| [14](chapters/14-rhythm-meter-and-dynamics.md) | 节奏 / 速度 / 力度：时间格与振幅 | 第 4、5 讲 | `demo_14` |
-| [15](chapters/15-chromatic-alteration-and-melody.md) | 调式变音、导音与旋律 | 第 11、12、14、16 讲 | `demo_15` |
-| [16](chapters/16-bwv846-appreciation.md) | 乐曲赏析：巴赫《平均律》C 大调前奏曲 BWV846 | 全书 | `demo_16` |
-| [99](chapters/99-epilogue.md) | 尾声：从频谱到感知 | 全书 | — |
+| [14](14-rhythm-meter-and-dynamics.md) | 节奏 / 速度 / 力度：时间格与振幅 | 第 4、5 讲 | `demo_14` |
+| [15](15-chromatic-alteration-and-melody.md) | 调式变音、导音与旋律 | 第 11、12、14、16 讲 | `demo_15` |
+| [16](16-bwv846-appreciation.md) | 乐曲赏析：巴赫《平均律》C 大调前奏曲 BWV846 | 全书 | `demo_16` |
+| [99](99-epilogue.md) | 尾声：从频谱到感知 | 全书 | — |
 
 
 本书记谱法相关内容（教科书的**第三讲：五线谱记谱法**）没有专属章节——因为记谱系统本身不是"频率语言"的自然对象，而是坐标纸上的约定。相关记号按需内联引用：变音记号见 Ch8 / Ch15，调号见 Ch12；省略记号与装饰音不覆盖。装饰音本质上是时—频域上的瞬时装饰，可视为 Ch15 旋律分析的延伸话题。

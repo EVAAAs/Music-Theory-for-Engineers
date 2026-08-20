@@ -21,7 +21,7 @@ demos: ["demos/demo_15_melody_f0.py"]
 - 变音不改动网格本身，只改**格子上某次取值**（临时升降），或改变音阶**模板**（如和声小调升第 7 级，Ch11 的 $[2,1,2,2,1,3,1]$）；
 - 第十四讲的**半音音阶**把 12 个格子全部走一遍（每步 +100c）——它是 $\mathbb{Z}_{12}$ 的"全音级游走"，只在平均律下各半音恰好相等（Ch7 已见自然/变化半音的两套定义在纯律下分裂）。听一遍这条游走（`demo_15` 合成，C→B→C' 共 13 个音，每步 +100c）：
 
-  <audio controls src="../demos/audio/15_chromatic.wav"></audio>
+  <audio controls src="demos/audio/15_chromatic.wav"></audio>
 
 > **乐理小注**：对照 `keywords.md` 第十四讲「调式变音、半音音阶」。教材区分"具有典型意义的调式变音"；本章的模型是：任何变音都是 12 格上的一次 ±1 步移动，典型与否取决于它落在哪——**导音位置上的变音（升 7 级）最典型**，因为它制造了全音阶里最强的吸引子。
 
@@ -29,7 +29,7 @@ demos: ["demos/demo_15_melody_f0.py"]
 
 **导音（leading tone）**是主音正下方的那一格（大调/和声小调的第 7 级 = 1100c，距主音仅 100c）。它不是普通的音，而是**吸向主音的磁石**：下图（`demo_15` 生成）把 B→C 的解决画成箭头，对比自然小调（第 7 级 1000c，距主音 200c，没有这股吸力）：
 
-![导音 B→C 的解决 vs 无导音（自然小调 7 级）](../demos/figs/15_leading_tone.png)
+![导音 B→C 的解决 vs 无导音（自然小调 7 级）](demos/figs/15_leading_tone.png)
 
 | 音阶 | 7 级 | 距主音 | 导音？ |
 |---|---|---|---|
@@ -40,7 +40,7 @@ demos: ["demos/demo_15_melody_f0.py"]
 
 听这个"吸力"的差别（`demo_15` 合成）：先是用导音 B→C（半音，直扑主音），再是自然小调的降七级→C（全音，没有那股扑过去的劲）：
 
-<audio controls src="../demos/audio/15_leading_tone.wav"></audio>
+<audio controls src="demos/audio/15_leading_tone.wav"></audio>
 
 为什么 100c 距离就是"吸引"？声学上，半音是粗糙度曲线的峰值区（Ch9 小二度 1.28，全曲线最高）——导音与主音并置是最强的"待解决"状态；解决（1100c→1200c）释放这股紧张。**导音解决 = 一次 100c 的短程频率移动，把不协和最小化、把主音确立**。
 
@@ -66,17 +66,17 @@ $$F_0(t)\colon [0,T]\longrightarrow [f_{\min}, f_{\max}],$$
 
 一条**时间–频率曲线**：下图（`demo_15` 生成）把小星星的 F0(t) 画成阶梯曲线（每级一个音）：
 
-![小星星的 F0(t)：时–频平面上的阶梯曲线](../demos/figs/15_f0_melody.png)
+![小星星的 F0(t)：时–频平面上的阶梯曲线](demos/figs/15_f0_melody.png)
 
 它的声谱图（谐波线随 F0 平行升降）：
 
-![小星星的声谱图：谐波随 F0 一起移动](../demos/figs/15_spectrogram.png)
+![小星星的声谱图：谐波随 F0 一起移动](demos/figs/15_spectrogram.png)
 
 **直接看声音自己画这条曲线**——下面这支视频（8 秒）把小星星的歌声与 F0(t) 放在同一根时间轴上：红色播放头随歌声推进，已唱过的部分亮起，播放头处的三颗谐波点（f0、2f0、3f0）随音高一起升降——"音色 = 谐波结构"一目了然：
 
 <video controls src="../animations/media/videos/ch15_melody_f0/720p30/MelodyF0Singing.mp4"></video>
 
-（纯听版：<audio controls src="../demos/audio/15_melody.wav"></audio>）
+（纯听版：<audio controls src="demos/audio/15_melody.wav"></audio>）
 
 - **音高** = F0 的值（曲线的高度）；
 - **音色** = 谐波结构（每条水平谱线的粗细/亮度）；

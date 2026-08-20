@@ -35,7 +35,7 @@ Ch4–6 分别讲了纯律、五度相生律、十二平均律各自的构造。
 
 `demo_07` 把三律逐音偏差画成折线（下图）：
 
-![三律逐音偏差折线](../demos/figs/07_deviation.png)
+![三律逐音偏差折线](demos/figs/07_deviation.png)
 
 三句话读这张表：
 
@@ -47,7 +47,7 @@ Ch4–6 分别讲了纯律、五度相生律、十二平均律各自的构造。
 
 **大三和弦**（根音、三音、五音，频率比 4:5:6——见 Ch4「预备：和弦」）放进三律，各音就换了位置：平均律 C、E、G 恰为 0/400/700 音分，五度相生律的 E 走五度链到 407.82，纯律的 E 回到小整数比 5:4（386.31）。`demo_07` 把三种长相画在音分轴上（下图），并合成三轨试听：
 
-![同一 C 大三和弦的三律长相](../demos/figs/07_triad_cents.png)
+![同一 C 大三和弦的三律长相](demos/figs/07_triad_cents.png)
 
 | | E | G |
 |---|---|---|
@@ -55,9 +55,9 @@ Ch4–6 分别讲了纯律、五度相生律、十二平均律各自的构造。
 | 五度相生律 | 407.82（331.12 Hz） | 701.96（392.44 Hz） |
 | 纯律 | 386.31（327.03 Hz） | 701.96（392.44 Hz） |
 
-- 平均律 C 大三和弦：<audio controls src="../demos/audio/07_triad_equal.wav"></audio>
-- 五度相生律 C 大三和弦：<audio controls src="../demos/audio/07_triad_pyth.wav"></audio>
-- 纯律 C 大三和弦：<audio controls src="../demos/audio/07_triad_just.wav"></audio>
+- 平均律 C 大三和弦：<audio controls src="demos/audio/07_triad_equal.wav"></audio>
+- 五度相生律 C 大三和弦：<audio controls src="demos/audio/07_triad_pyth.wav"></audio>
+- 纯律 C 大三和弦：<audio controls src="demos/audio/07_triad_just.wav"></audio>
 
 纯律的 E 让 5:4 谐波完全重合（最"准"），五度相生律的 E 高 21.51 音分（≈普通音差），平均律居中偏上 13.69。**注意 G 三者几乎相同**——五度是这个体系几乎一致的地基；分歧全在三度（E）上。
 

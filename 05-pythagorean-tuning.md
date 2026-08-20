@@ -37,12 +37,12 @@ $$n\ \text{个五度} \longmapsto n \times 701.955\ \text{音分} \pmod{1200}.$$
 
 同一根 C 上，两种 E 各听一遍——纯律的 E 与 C 谐波对齐、安静；五度相生律的 E 偏高，和 C 叠在一起会"嗡嗡"地抖（拍频）：
 
-- 纯律大三度（E=327.03 Hz，无拍）：<audio controls src="../demos/audio/05_third_just.wav"></audio>
-- 五度相生律大三度（E=331.12 Hz，偏高 21.51c）：<audio controls src="../demos/audio/05_third_pyth.wav"></audio>
+- 纯律大三度（E=327.03 Hz，无拍）：<audio controls src="demos/audio/05_third_just.wav"></audio>
+- 五度相生律大三度（E=331.12 Hz，偏高 21.51c）：<audio controls src="demos/audio/05_third_pyth.wav"></audio>
 
 两条路线画到同一根音分轴上，差异一目了然（`demo_05` 生成）：上面是纯律的直达箭头（×5:4），下面是五度链 C→G→D→A→E（两步越过八度边界、折叠回来），两个 E 之间那截红线就是 21.51 音分：
 
-![同一 C→E 的两条路线：5:4 直达 vs 四个五度折叠](../demos/figs/05_third_paths.png)
+![同一 C→E 的两条路线：5:4 直达 vs 四个五度折叠](demos/figs/05_third_paths.png)
 
 > **乐理小注**：教材第二讲在讲音律前先讲"复合音与分音列"——请对比这两种求 E 的方式：纯律让 E 的 5 谐波与 C 的 4 谐波重合（Ch4），五度相生律让 E 走"四个五度"的链（C→G→D→A→E）。**纯律对齐频谱，五度相生律对齐比例链**——这是两种世界观的分歧点。
 
@@ -50,7 +50,7 @@ $$n\ \text{个五度} \longmapsto n \times 701.955\ \text{音分} \pmod{1200}.$$
 
 E 的差别不是纸面上的——上面两轨音频已经听出差别。`demo_05` 的纯律 E = 327.03 Hz，五度相生律的 E = 331.12 Hz。两音叠加时，C 的第 5 谐波（$5\times261.63=1308.1$ Hz）与 E 的第 4 谐波（$4\times331.12=1324.5$ Hz）错开，产生每秒 $|1308.1-1324.5|\approx 16.4$ 次的拍（下图两行频谱：上行纯律对齐无拍，下行五度错开 16.35 Hz）：
 
-![大三度谐波重合对比](../demos/figs/05_third_beats.png)
+![大三度谐波重合对比](demos/figs/05_third_beats.png)
 
 **什么是"粗糙/紧张"？** 拍频低（每秒几次）时我们听到"呜——呜"的起伏，还算柔和；但当两音分得再开些、拍频升到每秒 20 次上下，耳朵就再也分辨不出"起伏"，只感到刺耳的"沙沙"抖动——这就是**粗糙感**（roughness），听感是"紧张、不干净"。对照第 2 章 440 与 442 Hz（拍频 2 Hz，柔和），这里 16 Hz 的拍已经偏向紧张。**16 Hz 的拍正是"粗糙/紧张"的源头**——Ch9 会用 Plomp–Levelt 曲线给这句话定量。
 
@@ -70,9 +70,9 @@ $$12 \times 701.955 - 7 \times 1200 = \mathbf{23.46}\ \text{音分}.$$
 
 这 23.46 音分就是**毕氏音差**（Pythagorean comma）：五度链走到第 12 步，回不到起点，比起点高了 23.46 音分。两条可视化都能看到这个缺口——螺旋图上，每步 +701.96 音分、沿圆周走 7 格，十二步后回到 C 的方位，却已经比起点高了 7 个八度再**多 23.46 音分**，螺旋不闭合；投影到一维坐标上，五度链每一步都对不上八度格，误差在第 12 步累计到 23.46 音分：
 
-![五度链螺旋：第 12 步不闭合](../demos/figs/05_fifth_helix.png)
+![五度链螺旋：第 12 步不闭合](demos/figs/05_fifth_helix.png)
 
-![12 个五度 vs 7 个八度：累计漂移](../demos/figs/05_comma_accumulation.png)
+![12 个五度 vs 7 个八度：累计漂移](demos/figs/05_comma_accumulation.png)
 
 ## 狼五度
 
@@ -82,7 +82,7 @@ $$1200 - (11 \times 701.955 \bmod 1200) = \mathbf{678.49}\ \text{音分}$$
 
 比正常五度窄 23.46 音分，听起来怪异刺耳，史称**狼五度**（wolf fifth）。`demo_05` 生成的音频把两种五度连在一起，前 1 秒是纯五度、后 1 秒是狼五度，后半段明显更"刺"：
 
-- 纯五度（C+G，701.96c）→ 狼五度（C + C 上方 678.49c 的音）：<audio controls src="../demos/audio/05_wolf_fifth.wav"></audio>
+- 纯五度（C+G，701.96c）→ 狼五度（C + C 上方 678.49c 的音）：<audio controls src="demos/audio/05_wolf_fifth.wav"></audio>
 
 ## 两个半音从链中来
 

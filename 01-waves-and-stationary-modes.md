@@ -60,7 +60,7 @@ $$u_n(x,t) = \sin\!\left(\frac{n\pi x}{L}\right)\cos(2\pi n f_1 t)$$
 
 一张图胜过千言——前 6 阶驻波的形状（`demo_01` 生成）：
 
-![前 6 阶驻波形状](../demos/figs/01_modes.png)
+![前 6 阶驻波形状](demos/figs/01_modes.png)
 
 ▶ 动态版：一根弦从第 1 阶振到第 4 阶，注意节点越来越多、频率成倍升高：
 
@@ -74,13 +74,13 @@ $$u(x,t) = \sum_{n=1}^{\infty} A_n\, \sin\!\left(\frac{n\pi x}{L}\right)\cos(2\p
 
 其中 $A_n$（振幅）与 $\phi_n$（相位）由初始拨弦方式决定。**这就是音色的数学来源**：同一个基频 $f_1$，不同的 $A_n$ 组合对应不同的波形——锯齿波、方波、或者任何一种你能想象的音色。`demo_01` 用前 8 个谐波分别叠加出锯齿与方波近似。先看时域波形（`demo_01` 生成）：三种波形共享 $f_1 = 220\,\mathrm{Hz}$（周期相同），形状却截然不同：
 
-![同一基频 220 Hz 的三种时域波形：正弦 / 锯齿 / 方波](../demos/figs/01_timbres.png)
+![同一基频 220 Hz 的三种时域波形：正弦 / 锯齿 / 方波](demos/figs/01_timbres.png)
 
 > **一句话规律**：对常见的拨弦/拉弦，**序号越小的谐波通常振幅越大**——第 1 次谐波（基频）往往最强，越高越弱。这不是物理定律，而是大多数弹拨/弓弦乐器"越粗的振动越容易被激发"的经验事实。它很重要：Ch4 讲纯律时，"第几次谐波重合"决定了两个音听起来的融合程度——越早（序数越小）重合的谐波越响，贡献越大。
 
 它们的频谱（`demo_01` 生成）清楚显示：差别全在各谐波的相对强度——正弦只有基频一条线，锯齿波奇偶次谐波都强（$1/n$），方波只有奇次谐波：
 
-![纯正弦、锯齿、方波的频谱（离散线状谱 = 乐音）](../demos/figs/01_spectra.png)
+![纯正弦、锯齿、方波的频谱（离散线状谱 = 乐音）](demos/figs/01_spectra.png)
 
 > **乐理小注**：教材第一讲把"音色"列为音的性质之一，并说音色由"泛音的数量、相对强度"决定。对照 `keywords.md` 第一讲「音的性质」——这里的 $A_n$ 序列就是教材说的"泛音的相对强度"。细节（为什么频谱等于音色、乐音与噪音的谱差别）在 Ch2 用傅里叶变换给出。
 
@@ -136,9 +136,9 @@ $$u(x,t) = \sum_{n=1}^{\infty} A_n\, \sin\!\left(\frac{n\pi x}{L}\right)\cos(2\p
 
 **试听**：同一个音高（220 Hz），三种不同的振幅组合——听出音色了吧？纯正弦只有一个频率，锯齿/方波泛音密集：
 
-- 纯正弦（只有基频）：<audio controls src="../demos/audio/01_sine.wav"></audio>
-- 锯齿波（奇偶次泛音都强）：<audio controls src="../demos/audio/01_saw.wav"></audio>
-- 方波（只有奇次泛音）：<audio controls src="../demos/audio/01_square.wav"></audio>
+- 纯正弦（只有基频）：<audio controls src="demos/audio/01_sine.wav"></audio>
+- 锯齿波（奇偶次泛音都强）：<audio controls src="demos/audio/01_saw.wav"></audio>
+- 方波（只有奇次泛音）：<audio controls src="demos/audio/01_square.wav"></audio>
 
 **复现**：以上图片、音频与动画全部由 `demos/demo_01_wave_modes.py` 与 `animations/scenes/ch01_standing_waves.py` 生成，改动数值后重跑即可（见 `demos/README.md` 与 `animations/README.md`）。
 

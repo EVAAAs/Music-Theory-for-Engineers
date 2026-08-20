@@ -20,7 +20,7 @@ $$T_\lambda: f \longmapsto \lambda f.$$
 
 在对数频率轴上（Ch3），这只是一个**水平平移**：把每个音分值 $c$ 变成 $c + 1200\log_2\lambda$。音与音之间的**音程比**（也就是旋律的轮廓）在平移下完全不变——这是移调的第一条性质，对任何 $\lambda$、任何律制都成立。下图左半（`demo_13` 生成）用《小星星》演示：C 调与 F 调是两条完全相同的曲线，只是整体上移 500 音分（5 个半音；红点都落在灰色网格上）；右半是纯律的情形，红点**不再**落在网格上——这就是下面要讲的分水岭：
 
-![移调 = 对数轴平移：左平均律落回网格，右纯律错开](../demos/figs/13_transpose_log.png)
+![移调 = 对数轴平移：左平均律落回网格，右纯律错开](demos/figs/13_transpose_log.png)
 
 > **乐理小注**：对照 `keywords.md` 第十五讲「移调、移调的方法」。教材教"将乐曲整体移高或移低若干度"；本章把"若干度"翻译成乘法因子 $\lambda$。移调的记谱方法（改变调号、改变谱号、移高八度）在频率语言里都是同一个平移算子在不同坐标纸上的写法。
 
@@ -33,7 +33,7 @@ $$T_\lambda: f \longmapsto \lambda f.$$
 
 这是 Ch3 伏笔的兑现，也是**红线**：移调的对称性只对十二平均律严格成立。下表（数值来自 `demos/demo_13_transposition.py --print-tables`，柱状图见图后）定量化了这件事——对每个移调量 $k$，三种律制下 12 音网格的最大漂移：
 
-![纯律移调的漂移：每个移调量 k 的最大偏离](../demos/figs/13_transposition_error.png)
+![纯律移调的漂移：每个移调量 k 的最大偏离](demos/figs/13_transposition_error.png)
 
 | 移调 k | 平均律最大漂移 | 纯律最大漂移 |
 |---|---|---|
@@ -54,8 +54,8 @@ $$T_\lambda: f \longmapsto \lambda f.$$
 
 用《小星星》听这个差别（`demo_13` 合成）。第一段是平均律（+5 半音 = F 调）——平移干净、旋律如初；第二段是纯律（×3/2 = G 调）——平移后音域整体上漂、新调的音格对不上，旋律明显"跑调"：
 
-- 平均律 C→F（平移干净）：<audio controls src="../demos/audio/13_transpose_et.wav"></audio>
-- 纯律 C→F（漂移 41c 内）：<audio controls src="../demos/audio/13_transpose_just.wav"></audio>
+- 平均律 C→F（平移干净）：<audio controls src="demos/audio/13_transpose_et.wav"></audio>
+- 纯律 C→F（漂移 41c 内）：<audio controls src="demos/audio/13_transpose_just.wav"></audio>
 
 > **乐理小注**：对照 `keywords.md` 第二讲「纯律、五度相生律」（移调问题的根源）。教材不讲音律，直接假定"移调可行"；本章说明这个假定**默认了十二平均律**。为什么近代键盘乐器最终统一到平均律（Ch6）？其中一个直接原因就是：只有平均律允许在任何调上演奏而无需重新调音。
 
