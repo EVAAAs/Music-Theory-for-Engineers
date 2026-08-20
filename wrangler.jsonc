@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "Music-Theory-for-Engineers",
+  "name": "music-theory-for-engineers",
   "compatibility_date": "2026-08-15",
   "observability": {
     "enabled": true
