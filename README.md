@@ -1,0 +1,92 @@
+# 《乐理、物理与傅里叶：把音乐翻译成频率的语言》
+
+从数学物理方程与傅里叶变换的视角，把传统乐理重新翻译成"频率的语言"：
+
+| 乐理概念 | 频率语言 |
+|---|---|
+| 音高 | 基频 $f_0$ |
+| 音色 | 傅里叶频谱（谐波结构） |
+| 音程 | 频率比（对数频率轴上的距离） |
+| 音律 | 对数频率轴的离散化 |
+| 调式 / 调 | 频率格（$\mathbb{Z}_{12}$）的子结构 |
+| 移调 / 转调 | 对数频率轴上的平移对称性 |
+| 节奏 / 旋律 | 时间格与"时—频"平面上的曲线 |
+
+## 阅读路线
+
+- **理工背景读者**：直接按章节顺序读，正文即是严格的数学推导。
+- **纯乐理读者**：每章正文中标注了 `> **乐理小注**` 的引用块，用直觉与类比桥接教材概念；末尾有"乐理 ↔ 频率"对照表。
+
+每章对应传统乐理教科书的讲次（见下方映射表），可对照本仓库的 `keywords.md`（16 讲关键词表）逐讲查证。
+
+## 章节结构
+
+### Part I 声音的物理与数学
+| 章 | 标题 | 覆盖讲次 | 配套演示 |
+|---|---|---|---|
+| [00](chapters/00-intro.md) | 导言：为什么乐理是频率的语言 | 第 1、2 讲 | — |
+| [01](chapters/01-waves-and-stationary-modes.md) | 波动方程与驻波：谐波序列的物理起源 | 第 1、2 讲 | `demo_01` |
+| [02](chapters/02-fourier-and-timbre.md) | 傅里叶变换：音色 = 频谱 | 第 1 讲 | `demo_02` |
+| [03](chapters/03-log-frequency-axis.md) | 对数频率轴：音乐的天然坐标 | 第 1 讲 | `demo_03` |
+
+### Part II 音律：频率轴的离散化
+| 章 | 标题 | 覆盖讲次 | 配套演示 |
+|---|---|---|---|
+| [04](chapters/04-just-intonation.md) | 纯律：小整数比与谐波拟合 | 第 2 讲 | `demo_04` |
+| [05](chapters/05-pythagorean-tuning.md) | 五度相生律：3/2 的幂链 | 第 2 讲 | `demo_05` |
+| [06](chapters/06-equal-temperament.md) | 十二平均律：$\mathbb{Z}_{12}$ 与"为什么是 12" | 第 2 讲 | `demo_06` |
+| [07](chapters/07-comparing-temperaments.md) | 三种音律的比较与半音/全音结构 | 第 2 讲 | `demo_07` |
+
+### Part III 音程与和弦：频率比的结构
+| 章 | 标题 | 覆盖讲次 | 配套演示 |
+|---|---|---|---|
+| [08](chapters/08-intervals.md) | 音程 = 频率比 | 第 6 讲 | `demo_08` |
+| [09](chapters/09-consonance-and-dissonance.md) | 协和与不协和：粗糙度曲线 | 第 6 讲 | `demo_09` |
+| [10](chapters/10-chords.md) | 和弦 = 频率比集合 | 第 7 讲 | `demo_10` |
+
+### Part IV 调式与调：频率格的子结构
+| 章 | 标题 | 覆盖讲次 | 配套演示 |
+|---|---|---|---|
+| [11](chapters/11-scales-and-modes.md) | 音阶与调式：八度的离散划分 | 第 9 讲 | `demo_11` |
+| [12](chapters/12-circle-of-fifths-and-key-relations.md) | 五度循环与调关系 | 第 8、10 讲 | `demo_12` |
+| [13](chapters/13-transposition-and-modulation.md) | 移调与转调：平移对称性 | 第 13、15 讲 | `demo_13` |
+
+### Part V 时间维与收束
+| 章 | 标题 | 覆盖讲次 | 配套演示 |
+|---|---|---|---|
+| [14](chapters/14-rhythm-meter-and-dynamics.md) | 节奏 / 速度 / 力度：时间格与振幅 | 第 4、5 讲 | `demo_14` |
+| [15](chapters/15-chromatic-alteration-and-melody.md) | 调式变音、导音与旋律 | 第 11、12、14、16 讲 | `demo_15` |
+| [16](chapters/16-bwv846-appreciation.md) | 乐曲赏析：巴赫《平均律》C 大调前奏曲 BWV846 | 全书 | `demo_16` |
+| [99](chapters/99-epilogue.md) | 尾声：从频谱到感知 | 全书 | — |
+
+## 覆盖范围说明
+
+本书记谱法相关内容（教科书的**第三讲：五线谱记谱法**）没有专属章节——因为记谱系统本身不是"频率语言"的自然对象，而是坐标纸上的约定。相关记号按需内联引用：变音记号见 Ch8 / Ch15，调号见 Ch12；省略记号与装饰音不覆盖。装饰音本质上是时—频域上的瞬时装饰，可视为 Ch15 旋律分析的延伸话题。
+
+## 运行环境
+
+```bash
+python3 -m venv .venv                 # 已在项目根目录建好
+.venv/bin/pip install numpy scipy matplotlib
+
+# 运行某个演示（生成频谱图到 demos/figs/，音频到 demos/audio/）
+.venv/bin/python demos/demo_01_wave_modes.py
+
+# 打印正文引用的数值表（单一数据源，正文表格由此而来）
+.venv/bin/python demos/demo_07_compare_temperaments.py --print-tables
+```
+
+### Manim 动画（可选）
+
+`animations/` 下的场景用 [Manim Community Edition](https://github.com/3b1b/manim) 渲染为 mp4，放在 `animations/media/`。本书环境为无 root 的 Linux，用 micromamba + conda-forge 提供一致的 manim/ffmpeg/pango 运行时（见 `demos/README.md` 的说明）。渲染某场景：
+
+```bash
+~/.local/bin/micromamba run -p ~/.manim-envs/musicKnowledge manim render \
+  -qm --media_dir animations/media animations/scenes/ch01_standing_waves.py StandingWaves
+```
+
+> 🎬 章节正文中的 `▶ 动画` 提示对应 `animations/scenes/` 中的场景文件。
+
+## 数值一致性约定
+
+正文、`demos/`、`animations/` 里出现的所有频率/音分/比值，一律来自根目录 `common.py`（单一数据源）。**正文表格数字由 `demo_0X --print-tables` 输出，禁止手抄**，以避免正文与代码数值漂移。
