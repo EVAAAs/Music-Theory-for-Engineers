@@ -119,7 +119,7 @@ Ch8 的谐波重合（$\min(a,b)$ 小）与本章的粗糙度曲线基本一致�
 
 **动画**：粗糙度曲线逐音分画出的过程，看三全音如何落在局部峰上：
 
-<video controls src="../animations/media/videos/ch09_roughness/720p30/RoughnessCurve.mp4"></video>
+<video controls src="animations/media/videos/ch09_roughness/720p30/RoughnessCurve.mp4"></video>
 
 **复现**：以上图片、音频与动画分别由 `demos/demo_09_roughness.py` 与 `animations/scenes/ch09_roughness.py` 生成。
 

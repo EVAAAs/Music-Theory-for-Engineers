@@ -143,7 +143,7 @@ demos: ["demos/demo_11_scales_modes.py"]
 
 **动画**：音阶与调式如何在八度格子上铺开、旋转：
 
-<video controls src="../animations/media/videos/ch11_scales_modes/720p30/ScalesAndModes.mp4"></video>
+<video controls src="animations/media/videos/ch11_scales_modes/720p30/ScalesAndModes.mp4"></video>
 
 **复现**：以上图片、音频与动画分别由 `demos/demo_11_scales_modes.py` 与 `animations/scenes/ch11_scales_modes.py` 生成。
 

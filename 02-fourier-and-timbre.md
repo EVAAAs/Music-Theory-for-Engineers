@@ -110,7 +110,7 @@ $$\cos\omega_1 t + \cos\omega_2 t
 
 **动画**：谐波一项一项叠加，波形越来越接近目标方波（只取奇次谐波 1,3,5,7…）——"音色 = 谐波组合"的直观演示：
 
-<video controls src="../animations/media/videos/ch02_fourier_timbre/720p30/FourierTimbre.mp4"></video>
+<video controls src="animations/media/videos/ch02_fourier_timbre/720p30/FourierTimbre.mp4"></video>
 
 **复现**：以上图片、音频与动画分别由 `demos/demo_02_fourier_timbre.py` 与 `animations/scenes/ch02_fourier_timbre.py` 生成。
 

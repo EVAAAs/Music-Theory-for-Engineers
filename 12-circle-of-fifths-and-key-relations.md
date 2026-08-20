@@ -53,7 +53,7 @@ $$C \xrightarrow{+7} G \xrightarrow{+7} D \xrightarrow{+7} A \xrightarrow{+7} E 
 
 动画（`animations/scenes/ch12_circle_of_fifths.py`）把这段 +7 轨道一圈圈走给你看：
 
-<video controls src="../animations/media/videos/ch12_circle_of_fifths/720p30/CircleOfFifths.mp4"></video>
+<video controls src="animations/media/videos/ch12_circle_of_fifths/720p30/CircleOfFifths.mp4"></video>
 
 ## 关系大小调：同一音列，主音差 3 半音
 

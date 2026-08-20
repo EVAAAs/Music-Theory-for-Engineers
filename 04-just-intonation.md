@@ -172,7 +172,7 @@ $$(5/4)^3 = 125/64 = 1.9531 < 2,$$
 
 **动画**：纯律用五度（×3/2）与三度（×5/4）两个"步"张成二维网格——沿五度链连走四次得到 E=81:64，与直接取三度得到的 E=5:4 相差普通音差 81:80=21.51c（证据二"同名音有两个频率"的画面版）：
 
-<video controls src="../animations/media/videos/ch04_just_intonation/720p30/JustIntonation.mp4"></video>
+<video controls src="animations/media/videos/ch04_just_intonation/720p30/JustIntonation.mp4"></video>
 
 **复现**：以上图片、音频与动画分别由 `demos/demo_04_just_intonation.py` 与 `animations/scenes/ch04_just_intonation.py` 生成。
 

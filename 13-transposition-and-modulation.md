@@ -127,7 +127,7 @@ $$T_\lambda: f \longmapsto \lambda f.$$
 
 **动画**：《小星星》在对数轴上平移的过程，看平均律与纯律的差别：
 
-<video controls src="../animations/media/videos/ch13_transposition/720p30/Transposition.mp4"></video>
+<video controls src="animations/media/videos/ch13_transposition/720p30/Transposition.mp4"></video>
 
 **复现**：以上图片、音频与动画分别由 `demos/demo_13_transposition.py` 与 `animations/scenes/ch13_transposition.py` 生成。
 

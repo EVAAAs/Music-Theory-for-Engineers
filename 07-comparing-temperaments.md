@@ -134,7 +134,7 @@ Ch4–6 分别讲了纯律、五度相生律、十二平均律各自的构造。
 
 **动画**：三律 12 音各自铺开，看看同一组音名下三个格子的错位：
 
-<video controls src="../animations/media/videos/ch07_comparing/720p30/ComparingTemperaments.mp4"></video>
+<video controls src="animations/media/videos/ch07_comparing/720p30/ComparingTemperaments.mp4"></video>
 
 **复现**：以上图片、音频与动画分别由 `demos/demo_07_compare_temperaments.py` 与 `animations/scenes/ch07_comparing.py` 生成。
 

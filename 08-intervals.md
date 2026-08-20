@@ -60,7 +60,7 @@ $\min(a,b)$ 从五度起逐级升高，到增四度冲到 32——**这是"三�
 
 > 这里先放 Ch9 的粗糙度曲线动画作预告——它直观显示两个音的粗糙度如何随音程大小起伏：**相距约一个半音（100 音分）时粗糙度最高**，三全音（600 音分）正处于"谐波重合极晚"的位置。这条曲线的定量推导在 Ch9：
 
-<video controls src="../animations/media/videos/ch09_roughness/720p30/RoughnessCurve.mp4"></video>
+<video controls src="animations/media/videos/ch09_roughness/720p30/RoughnessCurve.mp4"></video>
 
 ## 单音程与复音程
 
@@ -138,7 +138,7 @@ $$r \longmapsto \frac{2}{r}, \qquad x \longmapsto 1200 - x.$$
 
 **动画**：音程的转位如何在八度内"互补"：
 
-<video controls src="../animations/media/videos/ch08_intervals/720p30/IntervalsInversion.mp4"></video>
+<video controls src="animations/media/videos/ch08_intervals/720p30/IntervalsInversion.mp4"></video>
 
 **复现**：以上图片、音频与动画分别由 `demos/demo_08_intervals.py` 与 `animations/scenes/ch08_intervals.py` 生成。
 

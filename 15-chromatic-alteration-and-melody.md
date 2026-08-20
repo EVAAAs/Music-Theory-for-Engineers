@@ -74,7 +74,7 @@ $$F_0(t)\colon [0,T]\longrightarrow [f_{\min}, f_{\max}],$$
 
 **直接看声音自己画这条曲线**——下面这支视频（8 秒）把小星星的歌声与 F0(t) 放在同一根时间轴上：红色播放头随歌声推进，已唱过的部分亮起，播放头处的三颗谐波点（f0、2f0、3f0）随音高一起升降——"音色 = 谐波结构"一目了然：
 
-<video controls src="../animations/media/videos/ch15_melody_f0/720p30/MelodyF0Singing.mp4"></video>
+<video controls src="animations/media/videos/ch15_melody_f0/720p30/MelodyF0Singing.mp4"></video>
 
 （纯听版：<audio controls src="demos/audio/15_melody.wav"></audio>）
 

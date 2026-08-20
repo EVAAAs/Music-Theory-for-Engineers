@@ -64,7 +64,7 @@ $$u_n(x,t) = \sin\!\left(\frac{n\pi x}{L}\right)\cos(2\pi n f_1 t)$$
 
 ▶ 动态版：一根弦从第 1 阶振到第 4 阶，注意节点越来越多、频率成倍升高：
 
-<video controls src="../animations/media/videos/ch01_standing_waves/720p30/StandingWaves.mp4"></video>
+<video controls src="animations/media/videos/ch01_standing_waves/720p30/StandingWaves.mp4"></video>
 
 ## 一般解：音色从何而来
 

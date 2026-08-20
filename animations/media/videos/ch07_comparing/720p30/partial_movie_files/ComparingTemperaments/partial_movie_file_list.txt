@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/eva/GitHub/musicKnowledge/animations/media/videos/ch07_comparing/720p30/partial_movie_files/ComparingTemperaments/1612344377_791043210_223132457.mp4'
+file 'file:/home/eva/GitHub/musicKnowledge/animations/media/videos/ch07_comparing/720p30/partial_movie_files/ComparingTemperaments/4062302678_1736569231_1930275994.mp4'
+file 'file:/home/eva/GitHub/musicKnowledge/animations/media/videos/ch07_comparing/720p30/partial_movie_files/ComparingTemperaments/4062302678_1951609460_753107223.mp4'
+file 'file:/home/eva/GitHub/musicKnowledge/animations/media/videos/ch07_comparing/720p30/partial_movie_files/ComparingTemperaments/4062302678_3142935987_475480751.mp4'
+file 'file:/home/eva/GitHub/musicKnowledge/animations/media/videos/ch07_comparing/720p30/partial_movie_files/ComparingTemperaments/4062302678_214032379_2971433838.mp4'
+file 'file:/home/eva/GitHub/musicKnowledge/animations/media/videos/ch07_comparing/720p30/partial_movie_files/ComparingTemperaments/4062302678_4079250704_2664024900.mp4'
+file 'file:/home/eva/GitHub/musicKnowledge/animations/media/videos/ch07_comparing/720p30/partial_movie_files/ComparingTemperaments/4062302678_3747067126_854283725.mp4'
+file 'file:/home/eva/GitHub/musicKnowledge/animations/media/videos/ch07_comparing/720p30/partial_movie_files/ComparingTemperaments/4062302678_594930479_3638056840.mp4'
+file 'file:/home/eva/GitHub/musicKnowledge/animations/media/videos/ch07_comparing/720p30/partial_movie_files/ComparingTemperaments/4062302678_3487421977_95638800.mp4'
+file 'file:/home/eva/GitHub/musicKnowledge/animations/media/videos/ch07_comparing/720p30/partial_movie_files/ComparingTemperaments/4062302678_1525907281_1114954263.mp4'

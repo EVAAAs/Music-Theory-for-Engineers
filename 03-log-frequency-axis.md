@@ -155,7 +155,7 @@ C4 = MIDI 60，A4 = MIDI 69。`demo_03 --print-tables` 输出标准 MIDI ↔ 频
 
 **动画**：把"同一段旋律，画在线性轴 vs 对数轴"放一起，直观看到"同样的音程，线性轴不等距、对数轴等距"：
 
-<video controls src="../animations/media/videos/ch03_log_frequency/720p30/LogFrequency.mp4"></video>
+<video controls src="animations/media/videos/ch03_log_frequency/720p30/LogFrequency.mp4"></video>
 
 **复现**：以上图片与动画分别由 `demos/demo_03_log_axis.py`（线性 vs 对数、钢琴 88 键、等响曲线）与 `animations/scenes/ch03_log_frequency.py` 生成。
 

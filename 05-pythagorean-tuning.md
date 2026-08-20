@@ -136,7 +136,7 @@ $$1200 - (11 \times 701.955 \bmod 1200) = \mathbf{678.49}\ \text{音分}$$
 
 **动画**：五度链在对数轴上一格一格往上跳，看第 12 步如何落不回起点：
 
-<video controls src="../animations/media/videos/ch05_pythagorean/720p30/PythagoreanComma.mp4"></video>
+<video controls src="animations/media/videos/ch05_pythagorean/720p30/PythagoreanComma.mp4"></video>
 
 **复现**：以上图片、音频与动画分别由 `demos/demo_05_pythagorean.py` 与 `animations/scenes/ch05_pythagorean.py` 生成。
 

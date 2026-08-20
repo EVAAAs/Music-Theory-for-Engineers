@@ -126,7 +126,7 @@ $$A \;\xrightarrow{}\; \text{dB} = 20\log_{10}(A/A_0) \;\xrightarrow{}\; \text{�
 
 **动画**：时间格如何铺开，重音如何落在格点上循环：
 
-<video controls src="../animations/media/videos/ch14_rhythm/720p30/RhythmMeter.mp4"></video>
+<video controls src="animations/media/videos/ch14_rhythm/720p30/RhythmMeter.mp4"></video>
 
 **复现**：以上图片、音频与动画分别由 `demos/demo_14_rhythm_and_meter.py` 与 `animations/scenes/ch14_rhythm.py` 生成。
 

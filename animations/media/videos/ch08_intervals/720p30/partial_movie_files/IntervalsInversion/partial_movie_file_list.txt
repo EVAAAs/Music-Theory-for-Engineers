@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/eva/GitHub/musicKnowledge/animations/media/videos/ch08_intervals/720p30/partial_movie_files/IntervalsInversion/1612344377_3554135329_223132457.mp4'
+file 'file:/home/eva/GitHub/musicKnowledge/animations/media/videos/ch08_intervals/720p30/partial_movie_files/IntervalsInversion/4062302678_4287252619_2852783298.mp4'
+file 'file:/home/eva/GitHub/musicKnowledge/animations/media/videos/ch08_intervals/720p30/partial_movie_files/IntervalsInversion/4062302678_4114450738_2812985117.mp4'
+file 'file:/home/eva/GitHub/musicKnowledge/animations/media/videos/ch08_intervals/720p30/partial_movie_files/IntervalsInversion/4062302678_4135135720_2741422543.mp4'
+file 'file:/home/eva/GitHub/musicKnowledge/animations/media/videos/ch08_intervals/720p30/partial_movie_files/IntervalsInversion/4062302678_1270795781_3098002746.mp4'
+file 'file:/home/eva/GitHub/musicKnowledge/animations/media/videos/ch08_intervals/720p30/partial_movie_files/IntervalsInversion/4062302678_1245037706_3955074024.mp4'
+file 'file:/home/eva/GitHub/musicKnowledge/animations/media/videos/ch08_intervals/720p30/partial_movie_files/IntervalsInversion/4062302678_1409333285_721907746.mp4'
+file 'file:/home/eva/GitHub/musicKnowledge/animations/media/videos/ch08_intervals/720p30/partial_movie_files/IntervalsInversion/4062302678_2027242105_2993803309.mp4'

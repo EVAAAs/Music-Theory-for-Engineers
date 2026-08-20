@@ -120,7 +120,7 @@ $$\frac{16/9}{7/4} = \frac{64}{63},\qquad 27.26\ \text{音分},$$
 
 **动画**：大三和弦的谐波如何"咬合"成一个整体（C 的 3/5 谐波与 G、E 重合）：
 
-<video controls src="../animations/media/videos/ch10_chords/720p30/ChordsHarmonics.mp4"></video>
+<video controls src="animations/media/videos/ch10_chords/720p30/ChordsHarmonics.mp4"></video>
 
 **复现**：以上图片、音频与动画分别由 `demos/demo_10_chords.py` 与 `animations/scenes/ch10_chords.py` 生成。
 

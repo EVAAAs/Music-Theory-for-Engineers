@@ -129,7 +129,7 @@ $$q \times \log_2(3/2) \approx p,$$
 
 **动画**：把八度均匀切成 12 段，看 $2^{1/12}$ 的几何级数如何铺满一个八度：
 
-<video controls src="../animations/media/videos/ch06_equal_temperament/720p30/EqualTemperament.mp4"></video>
+<video controls src="animations/media/videos/ch06_equal_temperament/720p30/EqualTemperament.mp4"></video>
 
 **复现**：以上图片、音频与动画分别由 `demos/demo_06_equal_temperament.py` 与 `animations/scenes/ch06_equal_temperament.py` 生成。
 
