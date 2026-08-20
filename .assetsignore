@@ -1,0 +1,19 @@
+# --- 部署时排除（不影响 git 仓库，只影响 wrangler deploy 上传的内容）---
+
+# 部署配置与版本控制本身
+wrangler.jsonc
+wrangler.toml
+.gitignore
+.assetsignore
+.git/
+
+# Python 源码与缓存（网站只需要渲染后的 md / 图片 / 音视频）
+**/*.py
+**/__pycache__/**
+**/*.pyc
+**/*.pyo
+
+# Manim 渲染中间产物与缓存（最终视频已合并为单个 .mp4）
+**/partial_movie_files/**
+**/media/Tex/**
+**/media/texts/**
