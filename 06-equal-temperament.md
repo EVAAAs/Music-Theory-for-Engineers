@@ -18,8 +18,8 @@ $$s = 2^{1/12} = 1.059463,$$
 
 ![八度切分成 12 个等距格](demos/figs/06_equal_grid.png)
 
-- 平均律半音阶 C4→C5 均匀上行：<audio controls src="demos/audio/06_chromatic.wav"></audio>
-
+- 平均律半音阶 C4→C5 均匀上行：
+  <audio controls src="demos/audio/06_chromatic.wav"></audio>
 > **乐理小注**：对照 `keywords.md` 第二讲「十二平均律」。教材说它"将一个八度均分为 12 个相等音程"——这句话的精确数学形式就是 $2^{1/12}$ 的几何级数。注意"平均"是指**对数轴上平均**：相邻频率比恒定，频率差并不恒定（400 Hz 到 440 Hz 差 40 Hz，440 Hz 到 484 Hz 差 44 Hz，但对数间距相同）。这是 Ch3 主题的直接应用。
 
 ## 用 2 音分的五度，换 12 音的一致

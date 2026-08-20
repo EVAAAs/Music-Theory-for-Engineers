@@ -28,9 +28,10 @@ demos: ["demos/demo_11_scales_modes.py"]
 
 先听两条最常用的（`demo_11` 合成，C 起音上行）——大调音阶和五声音阶：
 
-- 自然大调（C D E F G A B C）：<audio controls src="demos/audio/11_major_scale.wav"></audio>
-- 五声（宫商角徵羽，C D E G A）：<audio controls src="demos/audio/11_pentatonic.wav"></audio>
-
+- 自然大调（C D E F G A B C）：
+  <audio controls src="demos/audio/11_major_scale.wav"></audio>
+- 五声（宫商角徵羽，C D E G A）：
+  <audio controls src="demos/audio/11_pentatonic.wav"></audio>
 注意最后一列就是 Ch3 的音分公式 $c = 1200\log_2(f/f_0)$ 应用到每个音级的**离散结果**——音阶是对数频率轴上的七个（或五个）点，下图（`demo_11` 生成）把它们画成错开的阶梯：
 
 ![五种音阶在对数频率轴上的阶梯](demos/figs/11_scales.png)

@@ -55,10 +55,12 @@ Ch4–6 分别讲了纯律、五度相生律、十二平均律各自的构造。
 | 五度相生律 | 407.82（331.12 Hz） | 701.96（392.44 Hz） |
 | 纯律 | 386.31（327.03 Hz） | 701.96（392.44 Hz） |
 
-- 平均律 C 大三和弦：<audio controls src="demos/audio/07_triad_equal.wav"></audio>
-- 五度相生律 C 大三和弦：<audio controls src="demos/audio/07_triad_pyth.wav"></audio>
-- 纯律 C 大三和弦：<audio controls src="demos/audio/07_triad_just.wav"></audio>
-
+- 平均律 C 大三和弦：
+  <audio controls src="demos/audio/07_triad_equal.wav"></audio>
+- 五度相生律 C 大三和弦：
+  <audio controls src="demos/audio/07_triad_pyth.wav"></audio>
+- 纯律 C 大三和弦：
+  <audio controls src="demos/audio/07_triad_just.wav"></audio>
 纯律的 E 让 5:4 谐波完全重合（最"准"），五度相生律的 E 高 21.51 音分（≈普通音差），平均律居中偏上 13.69。**注意 G 三者几乎相同**——五度是这个体系几乎一致的地基；分歧全在三度（E）上。
 
 > **乐理小注**：对照 `keywords.md` 第二讲「音律」。教材对三种律制只给定性描述（"纯律最谐和""五度相生律转调不便""平均律转调方便"），本章把它们翻译成 12 个数字。请记住这张表——它就是 Ch8–12 所有音程、和弦、调关系数字的来源。

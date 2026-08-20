@@ -48,10 +48,12 @@ $d_s$ 以临界带宽为单位。一个音有多个谐波，就把**所有谐波
 
 上面三个观察，各挑一个代表听一遍（都是 C4 上的双音，`demo_09` 合成）——小二度的"刺"、五度的"净"、三全音的"悬"：
 
-- 小二度（C + C♯，粗糙度最高）：<audio controls src="demos/audio/09_minor_second.wav"></audio>
-- 纯五度（C + G，低谷）：<audio controls src="demos/audio/09_fifth.wav"></audio>
-- 三全音（C + F♯，局部峰）：<audio controls src="demos/audio/09_tritone.wav"></audio>
-
+- 小二度（C + C♯，粗糙度最高）：
+  <audio controls src="demos/audio/09_minor_second.wav"></audio>
+- 纯五度（C + G，低谷）：
+  <audio controls src="demos/audio/09_fifth.wav"></audio>
+- 三全音（C + F♯，局部峰）：
+  <audio controls src="demos/audio/09_tritone.wav"></audio>
 > **乐理小注**：对照 `keywords.md` 第六讲「协和音程与不协和音程」。教材分四级（完全协和：纯一度/纯八度；协和：纯四/纯五；不完全协和：大小三度、大小六度；不协和：大小二、七度与增四/减五）。下图把教材分级着色叠到曲线上（`demo_09` 生成）——**分级是曲线的粗粒化，曲线是分级的连续化**。教材说"三全音最难听"（中世纪称"音乐中的魔鬼"），曲线给出原因：它落在粗糙度的高点。
 
 ![教材协和分级叠加在粗糙度曲线上](demos/figs/09_consonance_grading.png)
@@ -110,13 +112,18 @@ Ch8 的谐波重合（$\min(a,b)$ 小）与本章的粗糙度曲线基本一致�
 
 **试听**：六个音程的双音完整听一遍，从最净到最刺（均以 C4 为根音）：
 
-- 纯八度：<audio controls src="demos/audio/09_octave.wav"></audio>
-- 纯五度：<audio controls src="demos/audio/09_fifth.wav"></audio>
-- 大三度：<audio controls src="demos/audio/09_major_third.wav"></audio>
-- 大二度：<audio controls src="demos/audio/09_major_second.wav"></audio>
-- 三全音：<audio controls src="demos/audio/09_tritone.wav"></audio>
-- 小二度：<audio controls src="demos/audio/09_minor_second.wav"></audio>
-
+- 纯八度：
+  <audio controls src="demos/audio/09_octave.wav"></audio>
+- 纯五度：
+  <audio controls src="demos/audio/09_fifth.wav"></audio>
+- 大三度：
+  <audio controls src="demos/audio/09_major_third.wav"></audio>
+- 大二度：
+  <audio controls src="demos/audio/09_major_second.wav"></audio>
+- 三全音：
+  <audio controls src="demos/audio/09_tritone.wav"></audio>
+- 小二度：
+  <audio controls src="demos/audio/09_minor_second.wav"></audio>
 **动画**：粗糙度曲线逐音分画出的过程，看三全音如何落在局部峰上：
 
 <video controls src="animations/media/videos/ch09_roughness/720p30/RoughnessCurve.mp4"></video>

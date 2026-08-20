@@ -37,9 +37,10 @@ $$n\ \text{个五度} \longmapsto n \times 701.955\ \text{音分} \pmod{1200}.$$
 
 同一根 C 上，两种 E 各听一遍——纯律的 E 与 C 谐波对齐、安静；五度相生律的 E 偏高，和 C 叠在一起会"嗡嗡"地抖（拍频）：
 
-- 纯律大三度（E=327.03 Hz，无拍）：<audio controls src="demos/audio/05_third_just.wav"></audio>
-- 五度相生律大三度（E=331.12 Hz，偏高 21.51c）：<audio controls src="demos/audio/05_third_pyth.wav"></audio>
-
+- 纯律大三度（E=327.03 Hz，无拍）：
+  <audio controls src="demos/audio/05_third_just.wav"></audio>
+- 五度相生律大三度（E=331.12 Hz，偏高 21.51c）：
+  <audio controls src="demos/audio/05_third_pyth.wav"></audio>
 两条路线画到同一根音分轴上，差异一目了然（`demo_05` 生成）：上面是纯律的直达箭头（×5:4），下面是五度链 C→G→D→A→E（两步越过八度边界、折叠回来），两个 E 之间那截红线就是 21.51 音分：
 
 ![同一 C→E 的两条路线：5:4 直达 vs 四个五度折叠](demos/figs/05_third_paths.png)
@@ -82,8 +83,8 @@ $$1200 - (11 \times 701.955 \bmod 1200) = \mathbf{678.49}\ \text{音分}$$
 
 比正常五度窄 23.46 音分，听起来怪异刺耳，史称**狼五度**（wolf fifth）。`demo_05` 生成的音频把两种五度连在一起，前 1 秒是纯五度、后 1 秒是狼五度，后半段明显更"刺"：
 
-- 纯五度（C+G，701.96c）→ 狼五度（C + C 上方 678.49c 的音）：<audio controls src="demos/audio/05_wolf_fifth.wav"></audio>
-
+- 纯五度（C+G，701.96c）→ 狼五度（C + C 上方 678.49c 的音）：
+  <audio controls src="demos/audio/05_wolf_fifth.wav"></audio>
 ## 两个半音从链中来
 
 教材列出的两种半音也在五度链上有明确位置：

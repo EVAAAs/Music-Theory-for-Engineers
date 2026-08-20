@@ -76,7 +76,9 @@ $$F_0(t)\colon [0,T]\longrightarrow [f_{\min}, f_{\max}],$$
 
 <video controls src="animations/media/videos/ch15_melody_f0/720p30/MelodyF0Singing.mp4"></video>
 
-（纯听版：<audio controls src="demos/audio/15_melody.wav"></audio>）
+（纯听版：
+<audio controls src="demos/audio/15_melody.wav"></audio>
+）
 
 - **音高** = F0 的值（曲线的高度）；
 - **音色** = 谐波结构（每条水平谱线的粗细/亮度）；

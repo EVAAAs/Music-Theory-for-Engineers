@@ -104,9 +104,17 @@ $$\cos\omega_1 t + \cos\omega_2 t
 | 拍频 | 差频（振幅调制） | $440$ 与 $442\,\mathrm{Hz}$ → 拍频 $2\,\mathrm{Hz}$ | 第六讲(伏笔) |
 
 **试听**：
-- 简化"单簧管"（奇次谐波为主）：<audio controls src="demos/audio/02_clarinet.wav"></audio>
-- 简化"双簧管"（偶次谐波为主）：<audio controls src="demos/audio/02_oboe.wav"></audio>
-- 440 与 442 Hz 的拍频：<audio controls src="demos/audio/02_beats.wav"></audio>
+- 简化"单簧管"（奇次谐波为主）：
+
+-
+  <audio controls src="demos/audio/02_clarinet.wav"></audio>
+- 简化"双簧管"（偶次谐波为主）：
+
+-
+  <audio controls src="demos/audio/02_oboe.wav"></audio>
+- 440 与 442 Hz 的拍频：
+
+- <audio src="demos/audio/02_beats.wav"></audio>
 
 **动画**：谐波一项一项叠加，波形越来越接近目标方波（只取奇次谐波 1,3,5,7…）——"音色 = 谐波组合"的直观演示：
 

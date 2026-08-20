@@ -136,10 +136,12 @@ $$u(x,t) = \sum_{n=1}^{\infty} A_n\, \sin\!\left(\frac{n\pi x}{L}\right)\cos(2\p
 
 **试听**：同一个音高（220 Hz），三种不同的振幅组合——听出音色了吧？纯正弦只有一个频率，锯齿/方波泛音密集：
 
-- 纯正弦（只有基频）：<audio controls src="demos/audio/01_sine.wav"></audio>
-- 锯齿波（奇偶次泛音都强）：<audio controls src="demos/audio/01_saw.wav"></audio>
-- 方波（只有奇次泛音）：<audio controls src="demos/audio/01_square.wav"></audio>
-
+- 纯正弦（只有基频）：
+  <audio controls src="demos/audio/01_sine.wav"></audio>
+- 锯齿波（奇偶次泛音都强）：
+  <audio controls src="demos/audio/01_saw.wav"></audio>
+- 方波（只有奇次泛音）：
+  <audio controls src="demos/audio/01_square.wav"></audio>
 **复现**：以上图片、音频与动画全部由 `demos/demo_01_wave_modes.py` 与 `animations/scenes/ch01_standing_waves.py` 生成，改动数值后重跑即可（见 `demos/README.md` 与 `animations/README.md`）。
 
 

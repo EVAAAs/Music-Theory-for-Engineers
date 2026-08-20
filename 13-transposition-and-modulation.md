@@ -54,9 +54,10 @@ $$T_\lambda: f \longmapsto \lambda f.$$
 
 用《小星星》听这个差别（`demo_13` 合成）。第一段是平均律（+5 半音 = F 调）——平移干净、旋律如初；第二段是纯律（×3/2 = G 调）——平移后音域整体上漂、新调的音格对不上，旋律明显"跑调"：
 
-- 平均律 C→F（平移干净）：<audio controls src="demos/audio/13_transpose_et.wav"></audio>
-- 纯律 C→F（漂移 41c 内）：<audio controls src="demos/audio/13_transpose_just.wav"></audio>
-
+- 平均律 C→F（平移干净）：
+  <audio controls src="demos/audio/13_transpose_et.wav"></audio>
+- 纯律 C→F（漂移 41c 内）：
+  <audio controls src="demos/audio/13_transpose_just.wav"></audio>
 > **乐理小注**：对照 `keywords.md` 第二讲「纯律、五度相生律」（移调问题的根源）。教材不讲音律，直接假定"移调可行"；本章说明这个假定**默认了十二平均律**。为什么近代键盘乐器最终统一到平均律（Ch6）？其中一个直接原因就是：只有平均律允许在任何调上演奏而无需重新调音。
 
 ## 转调：把基准点搬走
