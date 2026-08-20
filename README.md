@@ -59,34 +59,5 @@
 | [16](chapters/16-bwv846-appreciation.md) | 乐曲赏析：巴赫《平均律》C 大调前奏曲 BWV846 | 全书 | `demo_16` |
 | [99](chapters/99-epilogue.md) | 尾声：从频谱到感知 | 全书 | — |
 
-## 覆盖范围说明
 
 本书记谱法相关内容（教科书的**第三讲：五线谱记谱法**）没有专属章节——因为记谱系统本身不是"频率语言"的自然对象，而是坐标纸上的约定。相关记号按需内联引用：变音记号见 Ch8 / Ch15，调号见 Ch12；省略记号与装饰音不覆盖。装饰音本质上是时—频域上的瞬时装饰，可视为 Ch15 旋律分析的延伸话题。
-
-## 运行环境
-
-```bash
-python3 -m venv .venv                 # 已在项目根目录建好
-.venv/bin/pip install numpy scipy matplotlib
-
-# 运行某个演示（生成频谱图到 demos/figs/，音频到 demos/audio/）
-.venv/bin/python demos/demo_01_wave_modes.py
-
-# 打印正文引用的数值表（单一数据源，正文表格由此而来）
-.venv/bin/python demos/demo_07_compare_temperaments.py --print-tables
-```
-
-### Manim 动画（可选）
-
-`animations/` 下的场景用 [Manim Community Edition](https://github.com/3b1b/manim) 渲染为 mp4，放在 `animations/media/`。本书环境为无 root 的 Linux，用 micromamba + conda-forge 提供一致的 manim/ffmpeg/pango 运行时（见 `demos/README.md` 的说明）。渲染某场景：
-
-```bash
-~/.local/bin/micromamba run -p ~/.manim-envs/musicKnowledge manim render \
-  -qm --media_dir animations/media animations/scenes/ch01_standing_waves.py StandingWaves
-```
-
-> 🎬 章节正文中的 `▶ 动画` 提示对应 `animations/scenes/` 中的场景文件。
-
-## 数值一致性约定
-
-正文、`demos/`、`animations/` 里出现的所有频率/音分/比值，一律来自根目录 `common.py`（单一数据源）。**正文表格数字由 `demo_0X --print-tables` 输出，禁止手抄**，以避免正文与代码数值漂移。
